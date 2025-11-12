@@ -29,3 +29,4 @@ go run main.go
 - **test-hit-rate-limit**: Program untuk melakukan spike test terhadap server dengan multiple requests
 
 ## Catatan
+Pastikan server sudah berjalan sebelum menjalankan test client.
