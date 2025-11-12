@@ -14,15 +14,13 @@ rate-limit-testing/
 ### 1. Jalankan Server
 ```bash
 cd rate-limit-spike-test
-npm install
-npm start
+go run main.go
 ```
 
 ### 2. Jalankan Test Client
 ```bash
 cd test-hit-rate-limit
-npm install
-npm start
+go run main.go
 ```
 
 ## Deskripsi
@@ -31,5 +29,3 @@ npm start
 - **test-hit-rate-limit**: Program untuk melakukan spike test terhadap server dengan multiple requests
 
 ## Catatan
-
-Pastikan server sudah berjalan sebelum menjalankan test client.
